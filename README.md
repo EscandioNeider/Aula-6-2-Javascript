@@ -10,5 +10,5 @@ O projeto prático envolveu a criação de um script simples para manipulação 
 - **CSS** para a estilização da página, garantindo que a interface tenha um visual agradável e organizado.
 - **JAVASCRIPT** para aplicar nossos conhecimentos, manipulando variáveis, eventos e interatividade dentro da página web.
 
-🔗 Visite o site: [Lista de Tarefas](https://escandioneider.github.io/Aula-6-2-Javascript/)  
+🔗 Visite o site: [Cadastro 2](https://escandioneider.github.io/Aula-6-2-Javascript/)  
 
