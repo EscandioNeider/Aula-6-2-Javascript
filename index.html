@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Escola</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #568e9c;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content {
+            text-align: center;
+            background-color: #c7f5f7ad;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .info {
+            font-size: 18px;
+            color: #ffffff;
+            margin: 10px 0;
+        }
+
+        .info strong, h1 {
+            font-size: 22px;
+            color: #34bbc5;
+        }
+
+        .info br {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>CADASTRO ESCOLAR</h1>
+
+        <script>
+            var nomeDaEscola= prompt("Digite o nome da tua escola");
+            var nomeDoAluno = prompt("Digite o teu nome completo");
+            var matricula = prompt("Digite o número da matrícula");
+            var curso = prompt("Digite o teu curso");
+            var semestre = prompt("Digite o semestre em que você se encontra");
+            var unidadeCurricular = prompt("Digite a unidade curricular");
+                    
+            document.write("<div class='info'><strong>---CADASTRO---</strong></div>");
+            document.write("<div class='info'>Nome da Escola: " + nomeDaEscola + "</div>");
+            document.write("<div class='info'>Nome do Aluno: " + nomeDoAluno + "</div>");
+            document.write("<div class='info'>Matrícula: " + matricula + "</div>");
+            document.write("<div class='info'>Unidade Curricular: " + unidadeCurricular + "</div>");
+        </script>
+    </div>
+</body>
+</html>
